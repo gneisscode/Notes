@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-gradient-to-r {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  background-image: linear-gradient(80deg, #d4c9f7, #11745a);
+  /* background-color: #f0f8ec; */
+  background-size: 100%;
+}
